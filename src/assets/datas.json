@@ -63,12 +63,12 @@
       "title": "Google Gemini"
     },
     "claude": {
-      "logo": "https://ai.zeer.xyz/img/anthropic.svg",
+      "logo": "./img/anthropic.svg",
       "url": "https://claude.ai/",
       "title": "Anthropic Claude"
     },
     "HuggingChat": {
-      "logo": "https://ai.zeer.xyz/img/HuggingChat.svg",
+      "logo": "./img/HuggingChat.svg",
       "url": "https://huggingface.co/chat",
       "title": "Hugging Face HuggingChat"
     }
@@ -105,7 +105,7 @@
       "title": "阿里 通义灵码"
     },
     "msdesigner": {
-      "logo": "https://ai.zeer.xyz/img/msdesigner.svg",
+      "logo": "./img/msdesigner.svg",
       "url": "https://designer.microsoft.com/",
       "title": "Microsoft Designer"
     },
@@ -122,7 +122,7 @@
       "title": "Coze"
     },
     "devv": {
-      "logo": "https://ai.zeer.xyz/img/devv.svg",
+      "logo": "./img/devv.svg",
       "url": "https://devv.ai/",
       "title": "Devv"
     },
@@ -132,7 +132,7 @@
       "title": "CSDN C知道"
     },
     "phind": {
-      "logo": "https://ai.zeer.xyz/img/phind.svg",
+      "logo": "./img/phind.svg",
       "url": "https://www.phind.com/",
       "title": "phind"
     },
