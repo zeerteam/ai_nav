@@ -1,8 +1,7 @@
 <script setup>
 import { ref, toRef } from 'vue';
 import Unit from './components/Unit.vue'
-// import info from './assets/datas.json'
-import info from '../public/datas.json'
+import info from './assets/datas.json'
 const datas = ref({})
 // fetch("https://ai.zeer.xyz/assets/datas.json")
 //   .then(res => res.json())
