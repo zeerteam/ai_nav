@@ -134,6 +134,11 @@
       "url": "https://klingai.kuaishou.com/",
       "title": "快手 可灵AI"
     },
+    "Flux": {
+      "logo": "https://fluxaiimagegenerator.com/_next/image?url=%2Ficon.png&w=32&q=75",
+      "url": "https://fluxaiimagegenerator.com/flux-schnell/",
+      "title": "Black Forest Labs Flux"
+    },
     "pw": {
       "logo": "https://ssfe.bj.bcebos.com/asset/2e9007a6935dc7fc76a1e893005c2489/pixweaver.png",
       "url": "https://pw.shengshu-ai.com/",
