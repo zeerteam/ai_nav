@@ -24,6 +24,9 @@ fetch("/public/datas.json")
       工具
     </div>
     <div>
+      平台
+    </div>
+    <div>
       其它
     </div>
   </div>
@@ -50,7 +53,7 @@ fetch("/public/datas.json")
 .nav>div,
 .nav_title>div {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   overflow: hidden;
   vertical-align: top;
   text-align: center;
