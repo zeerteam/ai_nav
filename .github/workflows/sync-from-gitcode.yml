@@ -1,0 +1,27 @@
+name: Sync from GitCode to GitHub
+
+on:
+  push:
+    branches: [ main ]  # 假设你的主分支是 main，可以根据需要修改
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Git
+        run: |
+          git config --global user.name "zeer"
+          git config --global user.email "boxit@qq.com"
+
+      - name: Add GitHub as a remote
+        run: git remote add github https://github.com/zeerteam/ai_nav.git || true
+
+      - name: Fetch and push to GitHub
+        run: |
+          git fetch --all
+          git push github main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
