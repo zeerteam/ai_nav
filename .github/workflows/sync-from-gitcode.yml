@@ -2,7 +2,7 @@ name: Sync from GitCode to GitHub
 
 on:
   push:
-    branches: [ main ]  # 假设你的主分支是 main，可以根据需要修改
+    branches: [ main ]
 
 jobs:
   sync:
@@ -16,7 +16,7 @@ jobs:
           git config --global user.name "zeer"
           git config --global user.email "boxit@qq.com"
 
-      - name: Add GitHub as a remote
+      - name: Add GitHub remote
         run: git remote add github https://github.com/zeerteam/ai_nav.git || true
 
       - name: Fetch and push to GitHub
